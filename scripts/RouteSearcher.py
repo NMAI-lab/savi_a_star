@@ -4,27 +4,26 @@
 
 # @author: Patrick Gavigan
 
+# Uses https://github.com/jrialland/python-astar
+# Install using: pip install astar
+# https://pypi.org/project/astar/
+
 from astar import AStar
 import math
+import json
 
 class RouteSearcher(AStar):
 
     # Define the map
     def __init__(self):
+            
+        # Load node graph
+        f = open('nodeGraph.json')
+        self.nodeGraph = json.load(f)
         
-        # Distances between neighbouring nodes as a graph
-        self.nodeGraph = {'A': [('B',5), ('D',5)],
-                          'B': [('A',5), ('C',5)],
-                          'C': [('B',5), ('D',5), ('E',5)],
-                          'D': [('A',5), ('C',5)],
-                          'E': [('C',5)]}
-        
-        # Absolute locations of each node
-        self.nodeLocations = {'A': (0,0),
-                              'B': (0,5),
-                              'C': (5,5),
-                              'D': (5,0),
-                              'E': (5,10)}        
+        # Load node locations
+        f = open('nodeLocations.json')
+        self.nodeLocations = json.load(f)
 
      # Compute the distance between two (x,y) tuples
     def heuristic_cost_estimate(self, n1, n2):      

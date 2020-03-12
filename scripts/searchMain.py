@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Main file for the search implementation.
-# https://github.com/jrialland/python-astar
+# Uses https://github.com/jrialland/python-astar
 
 # @author: Patrick Gavigan
 
