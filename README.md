@@ -1,1 +1,3 @@
-savi_a_star
+Welcome to SAVI A*
+
+This is a ROS node that performs A* search.
