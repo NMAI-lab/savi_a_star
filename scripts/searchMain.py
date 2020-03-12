@@ -7,18 +7,11 @@ Created on Wed Dec 27 10:38:12 2017
 
 # Main file for the search implementation.
 
-from Searcher import Searcher
-from graphFunctions import SearchProblem
+from RouteSearcher import RouteSearcher
 
-searchType = ['beadthFirst', 
-              'depthFirst', 
-              'uniformCost', 
-              'greedyBestFirst', 
-              'aStar']
+searcher = RouteSearcher()
+solution = searcher.astar('E','B')
+print(', '.join(solution))
 
-for i in range(len(searchType)):
-    problem = SearchProblem()
-    searcher = Searcher(problem, searchType[i])
-    searcher.solve()
-    searcher.printSolution()
-    searcher.printSearchStructures()
+nextPath = solution[1]
+print(nextPath)
