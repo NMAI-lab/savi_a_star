@@ -1,0 +1,92 @@
+Eary Approach (A):
+<instance> {   u'gnss': <instance> {   u'eph': 0.3005232512950897,
+    u'epv': 0.4005228281021118,
+    u'fix_type': 3,
+    u'geo_point': <instance> {   u'altitude': 123.8044662475586,
+    u'latitude': 47.641482370883864,
+    u'longitude': -122.14036499180827},
+    u'time_utc': 1585098513739036L,
+    u'velocity': <instance> {   u'x_val': -1.5999999046325684,
+    u'y_val': 15.0,
+    u'z_val': 0.39629119634628296}},
+    u'is_valid': True,
+    u'time_stamp': 1585098513739036200L}
+
+Approach intersection (B):
+
+<instance> {   u'gnss': <instance> {   u'eph': 0.30000051856040955,
+    u'epv': 0.40000051259994507,
+    u'fix_type': 3,
+    u'geo_point': <instance> {   u'altitude': 123.80618286132812,
+    u'latitude': 47.64254900577103,
+    u'longitude': -122.14036358759651},
+    u'time_utc': 1585096236203655L,
+    u'velocity': <instance> {   u'x_val': -1.5999999046325684,
+    u'y_val': 15.0,
+    u'z_val': 0.39629119634628296}},
+    u'is_valid': True,
+    u'time_stamp': 1585096236203655100L}
+	
+	
+	
+Turn Right (C):
+	
+	<instance> {   u'gnss': <instance> {   u'eph': 0.30000048875808716,
+    u'epv': 0.4000004827976227,
+    u'fix_type': 3,
+    u'geo_point': <instance> {   u'altitude': 123.79360961914062,
+    u'latitude': 47.64261369134199,
+    u'longitude': -122.14022863966349},
+    u'time_utc': 1585096303736435L,
+    u'velocity': <instance> {   u'x_val': -1.5999999046325684,
+    u'y_val': 15.0,
+    u'z_val': 0.39629119634628296}},
+    u'is_valid': True,
+    u'time_stamp': 1585096303736435600L}
+	
+	
+Right, End of Street (D):
+
+<instance> {   u'gnss': <instance> {   u'eph': 0.30000045895576477,
+    u'epv': 0.4000004529953003,
+    u'fix_type': 3,
+    u'geo_point': <instance> {   u'altitude': 123.79401397705078,
+    u'latitude': 47.642632115856806,
+    u'longitude': -122.13892325834075},
+    u'time_utc': 1585096367258111L,
+    u'velocity': <instance> {   u'x_val': -1.5999999046325684,
+    u'y_val': 15.0,
+    u'z_val': 0.39629119634628296}},
+    u'is_valid': True,
+    u'time_stamp': 1585096367258111800L}
+
+	
+Turn Left (E):
+<instance> {   u'gnss': <instance> {   u'eph': 0.30000039935112,
+    u'epv': 0.4000003933906555,
+    u'fix_type': 3,
+    u'geo_point': <instance> {   u'altitude': 123.80432891845703,
+    u'latitude': 47.642635167315994,
+    u'longitude': -122.14049925386175},
+    u'time_utc': 1585096437581218L,
+    u'velocity': <instance> {   u'x_val': -1.5999999046325684,
+    u'y_val': 15.0,
+    u'z_val': 0.39629119634628296}},
+    u'is_valid': True,
+    u'time_stamp': 1585096437581218400L}
+	
+	
+Left, end of street (F)
+<instance> {   u'gnss': <instance> {   u'eph': 0.30000039935112,
+    u'epv': 0.4000003933906555,
+    u'fix_type': 3,
+    u'geo_point': <instance> {   u'altitude': 123.80559539794922,
+    u'latitude': 47.642634517703016,
+    u'longitude': -122.14203898419318},
+    u'time_utc': 1585096487566300L,
+    u'velocity': <instance> {   u'x_val': -1.5999999046325684,
+    u'y_val': 15.0,
+    u'z_val': 0.39629119634628296}},
+    u'is_valid': True,
+    u'time_stamp': 1585096487566300400L}
+
